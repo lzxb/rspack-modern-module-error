@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "types": [
+            "@types/node"
+        ],
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "strict": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "gez-demo/src/*": [
+                "./src/*"
+            ],
+            "gez-demo/*": [
+                "./*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "dist"
+    ]
+  }
